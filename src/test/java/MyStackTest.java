@@ -27,6 +27,7 @@ public class MyStackTest {
         INode<Integer> myNode=myStack.pop();
         myStack.printStack();
         Assert.assertEquals(myThirdNode,myNode);
+
     }
 
 }
